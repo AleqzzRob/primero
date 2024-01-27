@@ -10,7 +10,7 @@ class Persona:
 class Empleado(Persona):
     def __init__(self):
         super().__init__()
-        self.sueldo=int(input("escriba su sualdo "))
+        self.sueldo=int(input("escriba su sueldo "))
         print("sueldo ",self.sueldo) #construco para llamar a la clase de persona
     def mostrar(self):
         super().mostrar()
